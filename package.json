@@ -1,0 +1,24 @@
+{
+  "name": "world-weather-app",
+  "version": "1.0.0",
+  "description": "Displays weather around the world",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumedh-Patkar/world-weather-app.git"
+  },
+  "author": "Sumedh Patkar <sumedh.patkar19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sumedh-Patkar/world-weather-app/issues"
+  },
+  "homepage": "https://github.com/Sumedh-Patkar/world-weather-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "node-fetch": "^2.6.0"
+  }
+}
