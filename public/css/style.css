@@ -1,0 +1,24 @@
+.header {
+    background : linear-gradient(-45deg, #e4f5ff, #96c7d5, #2d7a9c, #094f6e, #022534)
+}
+
+body {
+    background-color: #f7b42c;
+    background-image: linear-gradient(-45deg, #e4f5ff 90%, #96c7d5, #2d7a9c);
+}
+
+.city-details-morning {
+    background : linear-gradient(45deg, #e4f5ff, #96c7d5, #2d7a9c)
+}
+
+/* .city-details-afternoon {
+    background : linear-gradient(45deg, #96c7d5, #2d7a9c)
+}
+
+.city-details-evening {
+    background : linear-gradient(45deg, #96c7d5, #2d7a9c)
+}
+
+.city-details-night {
+    background : linear-gradient(45deg, #96c7d5, #2d7a9c)
+} */
