@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="container-fluid city-details-morning d-flex flex-column p-5 my-5">
+        <h2>{{city-name}}, {{country}} Weather</h2>
+        <h1 class="display-4 font-weight-bold">{{main_temp}} °C</h1>
+        <h2 class="font-weight-bold">{{weather-description}}</h2>
+    </div>
+
+    <h2>More Details</h2>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Weather Parameter</th>
+                <th>Value</th>
+            </tr>
+        </th>
+        <tbody>
+            <tr>
+                <td>City</td>
+                <td>{{city-name}}</td>
+            </tr>
+            <tr>
+                <td>weather</td>
+                <td>{{weather-main}}</td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>{{weather-description}}</td>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>{{main_temp}} °C</td>
+            </tr>
+            <tr>
+                <td>Pressure</td>
+                <td>{{main-pressure}} hPa</td>
+            </tr>
+            <tr>
+                <td>Humidity</td>
+                <td>{{main-humidity}}</td>
+            </tr>
+            <tr>
+                <td>Min Temperature</td>
+                <td>{{main-temp_min}} °C</td>
+            </tr>
+            <tr>
+                <td>Max Temperature</td>
+                <td>{{main-temp_max}} °C</td>
+            </tr>
+            <tr>
+                <td>Wind Speed</td>
+                <td>{{wind-speed}} meter/sec</td>
+            </tr>
+            <tr>
+                <td>Wind Direction</td>
+                <td>{{wind-direction}} degrees</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>{{country}}</td>
+            </tr>
+            <tr>
+                <td>Sunrise</td>
+                <td>{{sunrise}}</td>
+            </tr>
+            <tr>
+                <td>Sunset</td>
+                <td>{{sunset}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
